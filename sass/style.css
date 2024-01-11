@@ -1,0 +1,259 @@
+.page-navbar {
+  margin-left: 4rem;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+  width: 100%;
+  padding: 2rem;
+}
+
+ul {
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
+.btn-navbar {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 992px) {
+  .btn-navbar {
+    display: none;
+  }
+}
+@media (max-width: 1205px) {
+  .btn-navbar {
+    display: none;
+  }
+}
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: Poppins;
+}
+
+.header {
+  position: relative;
+  overflow: hidden;
+}
+.header p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+p {
+  width: 612px;
+  color: #666;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.header {
+  height: 700px;
+}
+.header .heading-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: flex;
+  width: 855px;
+  height: 854px;
+  flex-shrink: 0;
+  right: 0;
+  bottom: 0;
+}
+.header .heading-img {
+  position: absolute;
+  width: 43rem;
+  right: 2rem;
+}
+
+.circle-blue {
+  position: absolute;
+  top: 2rem;
+  left: 10rem;
+  width: 25px;
+}
+
+.circle-orange {
+  position: absolute;
+  top: 25rem;
+  left: 35rem;
+  width: 1rem;
+}
+
+.circle-purple {
+  position: absolute;
+  top: 25rem;
+  right: 25rem;
+  width: 1rem;
+}
+
+.star {
+  top: 5rem;
+  width: 2.5rem;
+  position: absolute;
+  right: 15rem;
+}
+
+.button-navbar {
+  background-color: transparent;
+  color: #468EF9;
+  border: 1px solid #468EF9;
+  border-radius: 40px;
+  width: 11rem !important;
+  height: 3.5rem !important;
+}
+
+.btn-sign {
+  background: linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%);
+  color: #ffffff;
+  border-radius: 40px;
+  width: 7rem !important;
+  height: 3rem !important;
+}
+
+.btn-clear {
+  border-radius: 40px;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%) border-box;
+  border: 1px solid transparent;
+}
+
+.button-navbar {
+  width: 7rem !important;
+  height: 3rem !important;
+}
+
+.header .btn-clear {
+  width: 11rem;
+}
+
+.btn-header {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  width: 125px;
+  height: 60px;
+}
+
+.buy-btn {
+  width: 63% !important;
+  margin-top: 20px;
+}
+
+.btn-footer {
+  position: absolute;
+  right: 5rem;
+  width: 4rem;
+  height: 3.3rem;
+  bottom: 17.6rem;
+  background-color: blue;
+}
+
+#transition {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background-color: #321082;
+  filter: blur(200px);
+}
+
+#transition-1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 61, 152);
+  filter: blur(200px);
+}
+
+#transition-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(149, 28, 113);
+  filter: blur(300px);
+}
+
+.heading {
+  background: linear-gradient(169deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-style: normal;
+  line-height: 82px;
+}
+
+.title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 52px;
+}
+
+h3 {
+  font-family: Poppins;
+  font-size: 15px;
+}
+
+h4 {
+  font-family: Poppins;
+  font-size: 15px;
+  color: rgb(98, 98, 98);
+}
+
+.get-started-text h3 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion .accordion-text span {
+  background: linear-gradient(169deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 20px;
+}/*# sourceMappingURL=style.css.map */
