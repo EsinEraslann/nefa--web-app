@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .page-navbar {
   margin-left: 4rem;
   -moz-column-gap: 3rem;
@@ -351,4 +352,65 @@ h4 {
 
 .partners-text {
   margin-left: 25rem;
+}
+
+.credit-card {
+  margin-top: 8rem;
+}
+.credit-card .credit-text {
+  margin-top: 2rem;
+}
+
+.advanced {
+  top: 162rem;
+  height: 35rem;
+  width: 90rem !important;
+  margin-left: 2rem;
+  margin-top: 10rem;
+  background: url(/assets/background2.png);
+  width: 100%;
+  background-size: cover; /* Görüntüyü konteynırı tamamen kaplayacak şekilde ayarlar */
+  background-position: center;
+  border-radius: 40px;
+  padding: 2rem;
+}
+.advanced .advanced-pics {
+  width: 40%;
+  right: 4rem;
+  top: 190rem;
+  position: absolute;
+}
+
+.security {
+  margin-top: 9rem;
+}
+.security .security-img {
+  left: 3rem;
+  width: 85%;
+  justify-content: center;
+}
+
+.app {
+  overflow: hidden;
+  margin-top: 10rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background: url(/assets/background2.png);
+  width: 100%;
+  height: 36rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app .app-body {
+  text-align: start;
+  padding-left: 6rem;
+}
+
+.app-text h3 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+@use "../abstracts/mixins" as m;
+@use "../abstracts/variables" as v;
+
+
+.app {
+    overflow: hidden;
+    margin-top: 10rem;
+    object-fit: contain;
+    background: url(/assets/background2.png);
+    @include m.meter(100%, 36rem);
+    @include m.flex-center;
+  
+    .app-body{
+      text-align: start;
+      padding-left: 6rem;
+    }
+  }
+
+  .app-text h3 {
+    object-fit: contain;
+    @include m.flex-center;
+  }
+  
