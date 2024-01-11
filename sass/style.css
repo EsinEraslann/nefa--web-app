@@ -239,24 +239,12 @@ h4 {
   color: rgb(98, 98, 98);
 }
 
-.get-started-text h3 {
+.app-text h3 {
   -o-object-fit: contain;
      object-fit: contain;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.accordion .accordion-text span {
-  background: linear-gradient(169deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: Poppins;
-  font-size: 25px;
-  font-style: normal;
-  line-height: 20px;
 }
 
 .table-body {
@@ -413,4 +401,74 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.support {
+  margin-top: 10rem;
+}
+
+.support-img {
+  width: 200%;
+  right: 8rem;
+  bottom: 5rem;
+  position: relative;
+}
+
+.support-text {
+  position: absolute;
+  margin-left: 40rem;
+  margin-bottom: 3rem;
+}
+
+.question {
+  background-color: inherit;
+  border: none;
+  text-align: start;
+  font-family: Poppins;
+  font-size: 20px;
+  line-height: 50px;
+  width: 100px;
+  height: 50px;
+}
+.question p {
+  font-size: 20px;
+}
+
+.question {
+  background-color: inherit;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  line-height: 60px;
+}
+
+.paragraphy {
+  padding: 0 18px;
+  background-color: inherit;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.support-text {
+  line-height: 60px;
+  color: black;
+}
+
+.support .support-text span {
+  background: linear-gradient(169deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 20px;
 }/*# sourceMappingURL=style.css.map */
