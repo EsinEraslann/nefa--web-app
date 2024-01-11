@@ -301,4 +301,54 @@ h4 {
 
 .statistic-bottom {
   border-bottom: 1px solid white;
+}
+
+.buy-form {
+  margin-top: 30rem;
+  background-color: #ffffff !important;
+}
+
+.bank {
+  width: 30rem;
+  position: absolute;
+  top: 77rem;
+  right: 8rem;
+}
+
+.page-input-two select {
+  width: 11rem;
+  height: 5rem;
+  border-radius: 1rem;
+  text-align: end;
+  border: solid var(--GRA-Blue2, #3984f4);
+  padding-right: 0.5rem;
+  color: #666;
+}
+
+.page-input-one input {
+  width: 20rem;
+  height: 5rem;
+  border-radius: 1rem;
+  text-align: start;
+  border: solid var(--GRA-Blue2, #3984f4);
+  padding-left: 1rem;
+}
+
+.partners {
+  margin-top: 13rem;
+  justify-content: center !important;
+  border-radius: 40px;
+  padding: 2rem;
+  left: 7rem;
+  top: 95rem;
+  background: url(/assets/background.png);
+}
+.partners h3 {
+  justify-content: center;
+  display: flex;
+  font-size: 30px;
+}
+
+.partners-text {
+  margin-left: 25rem;
 }/*# sourceMappingURL=style.css.map */
