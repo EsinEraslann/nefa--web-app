@@ -1,3 +1,8 @@
+@use "../abstracts/mixins" as m;
+
+
+
+
 .credit-card{
     margin-top: 8rem;
     .credit-text{
@@ -7,4 +12,8 @@
 .credit-img{
     margin-top: 1rem;
     width: 38rem;
+}
+
+.nefa-title{
+    @include m.text-transition;
 }

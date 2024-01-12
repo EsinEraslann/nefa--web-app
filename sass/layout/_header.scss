@@ -1,6 +1,10 @@
 @use "../abstracts/mixins" as m;
 @use "../abstracts/variables" as v;
 
+.top-nefa{
+  position: absolute;
+}
+
 .header {
     position: relative;
     overflow: hidden;
@@ -15,12 +19,7 @@
   }
 
   .heading {
-    background: linear-gradient(
-    to bottom, 
-    #10cafd , #1babf8
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    @include m.text-transition;
   line-height: 60px;
   
   }
@@ -37,14 +36,11 @@
   
 .header {
     height: 700px;
+    position: relative;
      
    .heading-img {
-      object-fit: contain;
-      display: flex;
-      @include m.meter(855px, 854px);
-      flex-shrink: 0;
-      right: 0;
-      bottom: 0;
+    position: absolute;
+    left: 40rem;
     }
     .heading-img {
       position: absolute;
@@ -54,7 +50,7 @@
   }
 
   .all-header{
-    padding-left: 6rem;
+    padding-left: 4rem;
   }
 
   .more{

@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6, p, span {
   font-family: Poppins;
 }
 
+.top-nefa {
+  position: absolute;
+}
+
 .header {
   position: relative;
   overflow: hidden;
@@ -63,16 +67,11 @@ p {
 
 .header {
   height: 700px;
+  position: relative;
 }
 .header .heading-img {
-  -o-object-fit: contain;
-     object-fit: contain;
-  display: flex;
-  width: 855px;
-  height: 854px;
-  flex-shrink: 0;
-  right: 0;
-  bottom: 0;
+  position: absolute;
+  left: 40rem;
 }
 .header .heading-img {
   position: absolute;
@@ -81,7 +80,7 @@ p {
 }
 
 .all-header {
-  padding-left: 6rem;
+  padding-left: 4rem;
 }
 
 .more {
@@ -232,6 +231,14 @@ p {
 .button-navbar {
   width: 7rem !important;
   height: 3rem !important;
+}
+
+.btn-download {
+  background: linear-gradient(#ffffff 0 0) padding-box, linear-gradient(to bottom, #10cafd, #1babf8) border-box;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 35px;
+  display: inline-block;
 }
 
 .header .btn-clear {
@@ -424,6 +431,12 @@ h4 {
   background-color: #ffffff !important;
 }
 
+.form-body {
+  display: flex;
+  justify-content: center;
+  colum-gap: 0;
+}
+
 .bank {
   width: 30rem;
   position: absolute;
@@ -448,6 +461,14 @@ h4 {
   text-align: start;
   border: solid var(--GRA-Blue2, #3984f4);
   padding-left: 1rem;
+}
+
+.btn-credit {
+  background: linear-gradient(#ffffff 0 0) padding-box, linear-gradient(to bottom, #10cafd, #1babf8) border-box;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 35px;
+  display: inline-block;
 }
 
 .partners {
@@ -490,8 +511,21 @@ h4 {
 }
 
 .learn {
-  text-decoration: none;
   padding-left: 40px;
+}
+
+.btn-get-started {
+  background: linear-gradient(#ffffff 0 0) padding-box, linear-gradient(to bottom, #10cafd, #1babf8) border-box;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 35px;
+  display: inline-block;
+}
+
+.tools {
+  background: linear-gradient(to bottom, #10cafd, #1babf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .security {
@@ -612,4 +646,10 @@ h4 {
 .credit-img {
   margin-top: 1rem;
   width: 38rem;
+}
+
+.nefa-title {
+  background: linear-gradient(to bottom, #10cafd, #1babf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }/*# sourceMappingURL=style.css.map */

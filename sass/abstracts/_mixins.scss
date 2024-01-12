@@ -7,8 +7,17 @@
     linear-gradient(to bottom, #10cafd, #1babf8) border-box;
   padding: 10px;
   border: 2px solid transparent;
-  border-radius: 15px;
+  border-radius: 35px;
   display: inline-block;
+}
+
+@mixin text-transition{
+  background: linear-gradient(
+    to bottom, 
+    #10cafd , #1babf8
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @mixin flex-center($justify: center) {

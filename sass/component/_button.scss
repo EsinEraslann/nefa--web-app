@@ -30,7 +30,9 @@
     height: 3rem !important;
   }
 
-  
+  .btn-download{
+    @include m.btn-transition;
+  }
 
  
 .header{

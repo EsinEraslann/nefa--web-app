@@ -1,9 +1,15 @@
-@use "../abstracts/mixins";
+@use "../abstracts/mixins" as m;
 @use "../abstracts/variables";
 
 .buy-form {
     margin-top: 30rem;
     background-color: #ffffff !important;
+  }
+
+  .form-body{
+    display: flex;
+    justify-content: center;
+    colum-gap: 0;
   }
   
   .bank {
@@ -14,10 +20,13 @@
   }
   
   .page-input-two select {
-    @include mixins.center-input;
+    @include m.center-input;
   
   }
   .page-input-one input {
-    @include mixins.big-input;
-   
+    @include m.big-input;
+  }
+
+  .btn-credit{
+    @include m.btn-transition;
   }
