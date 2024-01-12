@@ -30,9 +30,12 @@
     height: 3rem !important;
   }
 
+  
+
+ 
 .header{
     .btn-clear{
-      width: 11rem;
+      width: 10rem;
     }
    }
 
@@ -46,8 +49,12 @@
 }
 
 .buy-btn {
-    width: 63% !important;
+    width: 92% !important;
     margin-top: 20px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
 .btn-footer{

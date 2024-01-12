@@ -1,10 +1,22 @@
 @use "./variables" as v;
 
+
+@mixin btn-transition{
+  background: 
+    linear-gradient(#ffffff 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to bottom, #10cafd, #1babf8) border-box;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  display: inline-block;
+}
+
 @mixin flex-center($justify: center) {
   display: flex;
   justify-content: $justify;
   align-items: center;
 }
+
 
 @mixin meter($width-size, $height-size) {
   width: $width-size;

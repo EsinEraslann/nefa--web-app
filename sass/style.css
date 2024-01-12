@@ -44,6 +44,13 @@ h1, h2, h3, h4, h5, h6, p, span {
   text-align: left;
 }
 
+.heading {
+  background: linear-gradient(to bottom, #10cafd, #1babf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 60px;
+}
+
 p {
   width: 612px;
   color: #666;
@@ -73,6 +80,14 @@ p {
   right: 2rem;
 }
 
+.all-header {
+  padding-left: 6rem;
+}
+
+.more {
+  text-decoration: none;
+}
+
 .circle-blue {
   position: absolute;
   top: 2rem;
@@ -89,8 +104,8 @@ p {
 
 .circle-purple {
   position: absolute;
-  top: 25rem;
-  right: 25rem;
+  top: 33rem;
+  right: 38rem;
   width: 1rem;
 }
 
@@ -161,10 +176,10 @@ p {
   text-transform: uppercase;
 }
 
-.form-group {
+.entry {
   padding: 4rem;
 }
-.form-group p {
+.entry p {
   justify-content: start;
   display: flex;
   text-align: start;
@@ -220,7 +235,7 @@ p {
 }
 
 .header .btn-clear {
-  width: 11rem;
+  width: 10rem;
 }
 
 .btn-header {
@@ -234,8 +249,12 @@ p {
 }
 
 .buy-btn {
-  width: 63% !important;
+  width: 92% !important;
   margin-top: 20px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-footer {
@@ -276,17 +295,6 @@ p {
   height: 200px;
   background-color: rgb(149, 28, 113);
   filter: blur(300px);
-}
-
-.heading {
-  background: linear-gradient(169deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: Poppins;
-  font-style: normal;
-  line-height: 82px;
 }
 
 .title {
@@ -461,13 +469,6 @@ h4 {
   margin-left: 25rem;
 }
 
-.credit-card {
-  margin-top: 8rem;
-}
-.credit-card .credit-text {
-  margin-top: 2rem;
-}
-
 .advanced {
   top: 162rem;
   height: 35rem;
@@ -486,6 +487,11 @@ h4 {
   right: 4rem;
   top: 190rem;
   position: absolute;
+}
+
+.learn {
+  text-decoration: none;
+  padding-left: 40px;
 }
 
 .security {
@@ -590,4 +596,20 @@ h4 {
   font-size: 25px;
   font-style: normal;
   line-height: 20px;
+}
+
+.list {
+  list-style: none;
+}
+
+.credit-card {
+  margin-top: 8rem;
+}
+.credit-card .credit-text {
+  margin-top: 2rem;
+}
+
+.credit-img {
+  margin-top: 1rem;
+  width: 38rem;
 }/*# sourceMappingURL=style.css.map */

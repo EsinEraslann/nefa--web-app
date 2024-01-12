@@ -1,22 +1,7 @@
 @use "../abstracts/variables" as v;
 @use "../abstracts/mixins" as m;
 
-.heading {
-    background: linear-gradient(
-      169deg,
-      #3984f4 -6.01%,
-      #0cd3ff 36.87%,
-      #2f7cf0 78.04%,
-      #0e65e8 103.77%
-    );
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Poppins;
-    font-style: normal; 
-    line-height: 82px;
-  }
+
   
 .title {
     font-family: Poppins;

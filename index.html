@@ -53,14 +53,14 @@
     <div id="transition-2"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 all-header">
           <h1>
-            <span class="title">SİGN UP TODAY</span> <br />The World’s
-            <span class="heading"> <br />Fastest Growing </span>Crypto Web App
+            <span class="title">SİGN UP TODAY</span> <br/>The World’s
+            <span class="heading"> <br/>Fastest Growing </span>Crypto Web App
           </h1>
           <p>Buy and sell 200+ cryptocurrencies with 20+ flat currencies using bank transfers or your credit/debit card.</p>
           <button type="button" class="btn btn-primary rounded-pill mt-4"> Get Started </button>
-          <button class="btn btn-clear rounded-pill dropdown-toggle mt-4" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Download App </button>
+          <button style="width: 10rem;" class="btn btn-download rounded-pill mt-4" type="button">Download App<i class="fa-solid fa-angle-down"></i></button>
         </div>
         <div class="col-lg-6">
           <img src="assets/big-bit.png" class="heading-img" alt="heading-img"/>
@@ -87,7 +87,7 @@
             <div class="table-1">
               <div class="table-title d-flex justify-content-between">
                 <span>🔥 Trending</span>
-                <a href="#">More ></a>
+                <a class="more" href="#">More ></a>
               </div>
               <br />
               <table class="table table-name" style="width: 100%">
@@ -131,7 +131,7 @@
             <div class="table-2">
               <div class="title-text d-flex justify-content-between">
                 <span>🚀 Top Gainers</span>
-                <a href="#">More ></a>
+                <a class="more" href="#">More ></a>
               </div>
               <br />
               <table class="table table-name" style="width: 100%">
@@ -175,7 +175,7 @@
             <div class="table-3">
               <div class="title-text d-flex justify-content-between">
                 <span>💎 Recently Added</span>
-                <a href="#">More ></a>
+                <a class="more" href="#">More ></a>
               </div>
               <br />
               <table class="table table-name" style="width: 100%">
@@ -230,7 +230,6 @@
           Buy now and get 40% extra bonus Minimum pre-sale amount 25 Crypto
           Coin. We accept BTC crypto-currency
         </p>
-
         <br />
         <div class="d-flex align-items-center justify-content-center">
           <div class="page-input-one">
@@ -239,10 +238,11 @@
               <input type="number" placeholder="Get" />
             </form>
           </div>
-          <div class="page-input-two">
+          <div class="page-input-two">         
             <form action="#">
               <select name="#" id="#" class="mb-4">
-                <option> <img src="images/Ellipse 13.png>">USD</option>
+                <img src="assets/Ellipse 13.png" alt="">
+                <option><img src="#" alt="#">USD</option>
                 <option><img src="#" alt="#"/>EURO</option>
                 <option><img src="#" alt="#"/>GBP</option>
                 <option><img src="#" alt="#"/>GR</option>
@@ -250,6 +250,7 @@
                 <option><img src="#" alt="#"/>INR</option>
               </select>
               <select name="#" id="#">
+                <img src="assets/Ellipse 13.png" alt="">
                 <option><img src="#" alt="#"/>BTC</option>
                 <option><img src="#" alt="#"/>BNB</option>
                 <option><img src="#" alt="#"/>ETH</option>
@@ -297,7 +298,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <img src="assets/creditcard.png" class="w-70" alt="..."/>
+        <img class="credit-img" src="assets/creditcard.png" alt="..."/>
       </div>
       <div class="col-lg-6 credit-text">
         <h2>Introducing the NEFA Credit Card</h2>
@@ -305,7 +306,7 @@
         <p>Up to 3% back on purchases</p>
         <p>Earn rewards in bitcoin or any crypto on NEFA</p>
         <p>No annual fee</p>
-        <button type="button" class="btn btn-clear button-navbar">Join the waitlist</button>
+        <button type="button" class="btn btn-clear w-50">Join the waitlist</button>
       </div>
     </div>
   </div>
@@ -337,8 +338,8 @@
           or email. Dedicated account managers for partners.
         </p>
         <div>
-          <button type="button" class="btn btn-clear">Log In</button>
-          <a href="#">Learn more</a>
+          <button type="button" class="btn btn-clear">Get Started</button>
+          <a class="learn" href="#">Learn more</a>
         </div>
       </div>
       <div class="col-lg-6">
@@ -553,13 +554,13 @@
       </ul>
     </div>
     <div class="column">
-      <div class="form-group">
+      <div class="entry">
         <label class="newsletter" for="email">Newsletter</label>
         <p>
           Never miss anything crypto<br />
           when you're on the go
         </p>
-        <input type="email" class="form-control" id="email" placeholder="Enter your email"/>
+        <input type="email" class="e-mail" id="email" placeholder="Enter your email"/>
       </div>
       <button type="submit" class="btn btn-footer">
         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">

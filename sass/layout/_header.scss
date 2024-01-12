@@ -13,6 +13,17 @@
       text-align: left;
     }
   }
+
+  .heading {
+    background: linear-gradient(
+    to bottom, 
+    #10cafd , #1babf8
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 60px;
+  
+  }
   
   p {
     width: 612px;
@@ -41,6 +52,14 @@
       right: 2rem;
     }
   }
+
+  .all-header{
+    padding-left: 6rem;
+  }
+
+  .more{
+    text-decoration: none;
+  }
   
   .circle-blue {
     position: absolute;
@@ -50,7 +69,6 @@
   }
   .circle-orange {
     position: absolute;
-  
     top: 25rem;
     left: 35rem;
     width: 1rem;
@@ -58,8 +76,8 @@
   
   .circle-purple {
     position: absolute;
-    top: 25rem;
-    right: 25rem;
+    top: 33rem;
+    right: 38rem;
     width: 1rem;
   }
   
