@@ -27,10 +27,9 @@ ul {
     display: none;
   }
 }
-h1, h2, h3, h4, h5, h6, p, span {
-  font-family: Poppins;
-}
-
+/*h1, h2, h3, h4, h5, h6,p,span{
+    font-family: $font-family;
+}*/
 .top-nefa {
   position: absolute;
 }
@@ -40,7 +39,6 @@ h1, h2, h3, h4, h5, h6, p, span {
   overflow: hidden;
 }
 .header p {
-  font-family: Poppins;
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
@@ -58,11 +56,10 @@ h1, h2, h3, h4, h5, h6, p, span {
 p {
   width: 612px;
   color: #666;
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
 }
 
 .header {
@@ -119,7 +116,6 @@ p {
   position: relative;
   background-color: #fff;
   width: 100%;
-  font-family: Poppins;
   color: #666666;
   overflow: hidden;
   border: solid 2px #dddddd;
@@ -133,7 +129,6 @@ p {
 }
 .footer a {
   color: var(--FONT-SECONDARY, #666);
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -164,15 +159,10 @@ p {
   border-radius: 10px;
   border: 1px solid #ccc;
   color: var(--FONT-SECONDARY, #666);
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-}
-
-.footer .column ul li {
-  text-transform: uppercase;
 }
 
 .entry {
@@ -183,7 +173,6 @@ p {
   display: flex;
   text-align: start;
   color: var(--FONT-SECONDARY, #666);
-  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -305,7 +294,6 @@ p {
 }
 
 .title {
-  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -317,7 +305,6 @@ p {
 }
 
 h1 {
-  font-family: Poppins;
   font-size: 50px;
   font-weight: 600;
   line-height: 40px;
@@ -328,19 +315,16 @@ h1 {
 }
 
 h2 {
-  font-family: Poppins;
   font-size: 25px;
   font-weight: 600;
   line-height: 52px;
 }
 
 h3 {
-  font-family: Poppins;
   font-size: 15px;
 }
 
 h4 {
-  font-family: Poppins;
   font-size: 15px;
   color: rgb(98, 98, 98);
 }
@@ -434,7 +418,8 @@ h4 {
 .form-body {
   display: flex;
   justify-content: center;
-  colum-gap: 0;
+  -moz-column-gap: 0;
+       column-gap: 0;
 }
 
 .bank {
@@ -537,6 +522,10 @@ h4 {
   justify-content: center;
 }
 
+.soc-type {
+  text-decoration: underline;
+}
+
 .app {
   overflow: hidden;
   margin-top: 10rem;
@@ -583,7 +572,6 @@ h4 {
   background-color: inherit;
   border: none;
   text-align: start;
-  font-family: Poppins;
   font-size: 20px;
   line-height: 50px;
   width: 100px;
@@ -596,7 +584,6 @@ h4 {
 .question {
   background-color: inherit;
   color: #000000;
-  cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
@@ -609,10 +596,8 @@ h4 {
 
 .paragraphy {
   padding: 0 18px;
-  background-color: inherit;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
 }
 
 .support-text {
@@ -621,12 +606,7 @@ h4 {
 }
 
 .support .support-text span {
-  background: linear-gradient(169deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: Poppins;
+  color: #3983f5;
   font-size: 25px;
   font-style: normal;
   line-height: 20px;
@@ -652,4 +632,12 @@ h4 {
   background: linear-gradient(to bottom, #10cafd, #1babf8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.fa-check {
+  background-color: #2f7cf0;
+  color: rgb(240, 232, 232);
+  border-radius: 50%;
+  padding: 3px;
+  margin-right: 15px;
 }/*# sourceMappingURL=style.css.map */

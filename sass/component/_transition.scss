@@ -6,25 +6,24 @@
     left: 0;
     top: 0;
     @include m.meter(200px, 200px);
-    background-color: #321082; // Pembe arkaplan rengi
-    filter: blur(200px); // Blur efekti uygulama//
+    background-color: #321082;
+    filter: blur(200px);
   }
 
 #transition-1{
     position: absolute;
-  
     right: 0;
     bottom: 0;
     @include m.meter(200px, 200px);
-    background-color: rgb(0, 61, 152); // Pembe arkaplan rengi
-    filter: blur(200px); // Blur efekti uygulama//
-  }
+    background-color: rgb(0, 61, 152);
+    filter: blur(200px);
+   }
 
 #transition-2 {
     position: absolute;
     left: 0;
     bottom: 0;
     @include m.meter(200px, 200px);
-    background-color: rgb(149, 28, 113); // Pembe arkaplan rengi
-    filter: blur(300px); // Blur efekti uygulama//
+    background-color: rgb(149, 28, 113); 
+    filter: blur(300px);
   }

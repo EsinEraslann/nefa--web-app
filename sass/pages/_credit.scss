@@ -17,3 +17,7 @@
 .nefa-title{
     @include m.text-transition;
 }
+
+.fa-check{
+    @include m.check;
+}

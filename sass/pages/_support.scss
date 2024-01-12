@@ -23,7 +23,6 @@
     background-color: inherit;
     border: none;
     text-align: start;
-    font-family: Poppins;
     font-size: 20px;
     line-height: 50px;
     width: 100px;
@@ -38,7 +37,6 @@
 .question {
     background-color: inherit;
     color: #000000;
-    cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
@@ -51,10 +49,8 @@
 
 .paragraphy {
     padding: 0 18px;
-    background-color: inherit;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
 }
 
 .support-text {
@@ -66,16 +62,7 @@
 .support {
     .support-text {
         span {
-            background: linear-gradient(169deg,
-                    #3984f4 -6.01%,
-                    #0cd3ff 36.87%,
-                    #2f7cf0 78.04%,
-                    #0e65e8 103.77%);
-            color: transparent;
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-family: Poppins;
+            color: #3983f5 ;
             font-size: 25px;
             font-style: normal;
             line-height: 20px;
