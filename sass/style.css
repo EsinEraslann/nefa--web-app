@@ -43,13 +43,17 @@ ul {
 }
 
 .heading {
+  font-size: 70px;
+}
+
+.fastest {
   background: linear-gradient(to bottom, #10cafd, #1babf8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 60px;
 }
 
-p {
+.pag {
   width: 612px;
   color: #666;
   font-size: 18px;
@@ -62,17 +66,16 @@ p {
   height: 700px;
   position: relative;
 }
-.header .heading-img {
-  position: absolute;
-  left: 40rem;
-}
-.header .heading-img {
+
+.heading-img {
   position: absolute;
   width: 43rem;
+  left: 40rem;
   right: 2rem;
 }
 
 .all-header {
+  margin-top: 5rem;
   padding-left: 4rem;
 }
 
@@ -108,84 +111,111 @@ p {
   right: 15rem;
 }
 
-.footer {
-  position: relative;
-  background-color: #fff;
-  width: 100%;
-  color: #666666;
-  overflow: hidden;
-  border: solid 2px #dddddd;
-}
-.footer img {
-  padding-top: 4rem;
-}
-.footer ul {
-  border-right: 1px solid #dddddd;
-  height: 100%;
-}
-.footer a {
-  color: var(--FONT-SECONDARY, #666);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 3rem;
+.list a {
   text-decoration: none;
-}
-
-.footer .column {
-  width: 15%;
-  float: left;
-  padding: 0 15px;
-  margin: 0 1rem;
-}
-
-.footer .column:first-child {
-  padding-left: 0;
-}
-
-.footer .column:last-child {
-  padding-right: 0;
-}
-
-.footer .form-group {
-  margin-bottom: 10px;
-}
-
-.footer .form-control {
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  color: var(--FONT-SECONDARY, #666);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+  color: #666;
+  line-height: 50px;
 }
 
 .entry {
-  padding: 4rem;
-}
-.entry p {
-  justify-content: start;
-  display: flex;
-  text-align: start;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  margin-bottom: 1rem;
+  color: #666;
 }
 
-.entry #email {
-  padding: 19px;
-  width: 15rem;
-  border-radius: 20px;
-  color: #aeaeae;
+#footer {
+  position: relative;
 }
+
+.entry input {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/*.footer {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    color: #666666;
+    overflow: hidden;
+    border: solid 2px #dddddd;
+
+    img {
+        padding-top: 4rem;
+    }
+
+    ul {
+        border-right: 1px solid #dddddd;
+        height: 100%;
+    }
+
+    a {
+        color: var(--FONT-SECONDARY, #666);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 3rem;
+        text-decoration: none;
+    }
+}
+
+.footer .column {
+    width: 15%;
+    float: left;
+    padding: 0 15px;
+    margin: 0 1rem;
+}
+
+.footer .column:first-child {
+    padding-left: 0;
+
+}
+
+.footer .column:last-child {
+    padding-right: 0;
+}
+
+.footer .form-group {
+    margin-bottom: 10px;
+}
+
+.footer .form-control {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    color: var(--FONT-SECONDARY, #666);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+
+.entry{
+    padding: 4rem;
+
+    p {
+        justify-content: start;
+        display: flex;
+        text-align: start;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 1rem;
+    }
+}
+
+.entry #email{
+    padding: 19px;
+    width: 15rem;
+    border-radius: 20px;
+    color: #aeaeae ;
+}
+
 
 .newsletter {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
-
+*/
 .copyright {
   display: flex;
   justify-content: center;
@@ -301,18 +331,10 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
-.app-text h3 {
-  -o-object-fit: contain;
-     object-fit: contain;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .table-body {
-  top: 800px;
+  top: -50px;
   left: 10px;
-  position: absolute;
+  position: relative;
   max-width: 1400px;
 }
 
@@ -383,14 +405,13 @@ p {
 }
 
 .buy-form {
-  margin-top: 30rem;
-  background-color: #ffffff !important;
+  margin-top: 5rem;
+  position: relative;
 }
 
 .bank {
   width: 30rem;
   position: absolute;
-  top: 77rem;
   right: 8rem;
 }
 
@@ -407,6 +428,12 @@ p {
   padding-left: 1rem;
 }
 
+/*
+#top-form {
+  background-image: url(/assets/Ellipse\ 13.png);
+  background-repeat: no-repeat;
+  background-position: 60px;
+}*/
 .form-body select {
   background: linear-gradient(#ffffff 0 0) padding-box, linear-gradient(to bottom, #10cafd, #1babf8) border-box;
   padding: 10px;
@@ -418,12 +445,6 @@ p {
   border-radius: 1rem;
   text-align: end;
   padding-right: 1rem;
-}
-
-#top-form {
-  background-image: url(/assets/Ellipse\ 13.png);
-  background-repeat: no-repeat;
-  background-position: 60px;
 }
 
 #bottom-form {
@@ -441,12 +462,11 @@ p {
 }
 
 .partners {
-  margin-top: 13rem;
-  justify-content: center !important;
-  border-radius: 40px;
+  position: relative;
+  margin-top: 10rem;
+  justify-content: center;
+  border-radius: 30px;
   padding: 2rem;
-  left: 7rem;
-  top: 95rem;
   background: url(/assets/background.png);
 }
 .partners h3 {
@@ -457,10 +477,12 @@ p {
 
 .partners-text {
   margin-left: 25rem;
+  display: flex;
+  text-align: center;
 }
 
 .advanced {
-  top: 162rem;
+  position: relative;
   height: 35rem;
   margin-top: 10rem;
   background: url(/assets/background2.png);
@@ -473,7 +495,6 @@ p {
 .advanced .advanced-pics {
   width: 40%;
   right: 4rem;
-  top: 180rem;
   position: absolute;
 }
 
@@ -496,12 +517,13 @@ p {
 }
 
 .security {
-  margin-top: 9rem;
+  position: relative;
+  margin-top: 8rem;
 }
-.security .security-img {
+
+.security-img {
   left: 3rem;
   width: 85%;
-  justify-content: center;
 }
 
 .soc-type {
@@ -521,46 +543,25 @@ p {
   align-items: center;
 }
 .app .app-body {
-  text-align: start;
+  text-align: center;
   padding-left: 6rem;
 }
 
-.app-text h3 {
-  -o-object-fit: contain;
-     object-fit: contain;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+p {
+  color: #666;
 }
 
-.support {
+.support-text {
   margin-top: 10rem;
 }
 
 .support-img {
-  width: 200%;
-  right: 8rem;
-  bottom: 5rem;
-  position: relative;
+  left: 30rem;
 }
 
-.support-text {
-  position: absolute;
-  margin-left: 40rem;
-  margin-bottom: 3rem;
-}
-
-.question {
-  background-color: inherit;
-  border: none;
-  text-align: start;
-  font-size: 20px;
-  line-height: 50px;
-  width: 100px;
-  height: 50px;
-}
-.question p {
-  font-size: 20px;
+.accordion-body {
+  line-height: 25px;
+  color: #666;
 }
 
 .question {
@@ -599,6 +600,7 @@ p {
 }
 
 .credit-card {
+  position: relative;
   margin-top: 8rem;
 }
 .credit-card .credit-text {

@@ -2,17 +2,15 @@
 @use "../abstracts/variables";
 
 .buy-form {
-  margin-top: 30rem;
-  background-color: #ffffff !important;
+  margin-top: 5rem;
+  position: relative;
 }
 
 .bank {
   width: 30rem;
   position: absolute;
-  top: 77rem;
   right: 8rem;
 }
-
 
 
 .form-body input {
@@ -21,16 +19,17 @@
 
 }
 
-.form-body select {
-  @include m.btn-transition;
-  @include m.select;
 
-}
-
+/*
 #top-form {
   background-image: url(/assets/Ellipse\ 13.png);
   background-repeat: no-repeat;
   background-position: 60px;
+}*/
+
+.form-body select {
+  @include m.btn-transition;
+  @include m.select;
 }
 
 #bottom-form {

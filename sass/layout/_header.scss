@@ -17,13 +17,17 @@
     }
   }
 
-  .heading {
+  .heading{
+    font-size: 70px
+  }
+
+  .fastest {
     @include m.text-transition;
     line-height: 60px;
   
   }
   
-  p {
+  .pag{
     width: 612px;
     color: #666;
     font-size: 18px;
@@ -35,19 +39,17 @@
 .header {
     height: 700px;
     position: relative;
-     
-   .heading-img {
-    position: absolute;
-    left: 40rem;
-    }
+   }
+   
     .heading-img {
       position: absolute;
       width: 43rem;
+      left: 40rem;
       right: 2rem;
-    }
   }
 
   .all-header{
+    margin-top: 5rem;
     padding-left: 4rem;
   }
 

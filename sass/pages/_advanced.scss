@@ -2,7 +2,7 @@
 
 
 .advanced {
-    top: 162rem;
+    position: relative;
     height: 35rem;
     margin-top: 10rem;
     background: url(/assets/background2.png);
@@ -11,22 +11,22 @@
     background-position: center;
     border-radius: 40px;
     padding: 2rem;
-.advanced-pics {
-      width: 40%;
-      right: 4rem;
-      top: 180rem;
-      position: absolute;  
+
+    .advanced-pics {
+        width: 40%;
+        right: 4rem;
+        position: absolute;
     }
 }
 
-.learn{
+.learn {
     padding-left: 40px;
 }
 
-.btn-get-started{
+.btn-get-started {
     @include m.btn-transition;
 }
 
-.tools{
+.tools {
     @include m.text-transition;
 }

@@ -11,13 +11,13 @@
     @include m.flex-center;
   
     .app-body{
-      text-align: start;
+      text-align: center;
       padding-left: 6rem;
     }
   }
 
-  .app-text h3 {
-    object-fit: contain;
-    @include m.flex-center;
+
+  p{
+    color: #666;;
   }
-  
+ 

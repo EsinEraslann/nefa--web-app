@@ -1,37 +1,15 @@
-.support {
+.support-text{
     margin-top: 10rem;
-
 }
 
-.support-img {
-    width: 200%;
-    right: 8rem;
-    bottom: 5rem;
-    position: relative;
+.support-img{
+    left: 30rem;
 }
 
 
-.support-text {
-    position: absolute;
-    margin-left: 40rem;
-    margin-bottom: 3rem;
-
-
-}
-
-.question {
-    background-color: inherit;
-    border: none;
-    text-align: start;
-    font-size: 20px;
-    line-height: 50px;
-    width: 100px;
-    height: 50px;
-
-    p {
-        font-size: 20px;
-    }
-
+.accordion-body{
+    line-height: 25px;
+    color: #666;
 }
 
 .question {

@@ -1,6 +1,31 @@
 @use "../abstracts/variables" as v;
 
-.footer {
+
+
+.list a{
+    text-decoration: none;
+    color: #666;
+    line-height: 50px;
+}
+
+
+
+.entry{
+    color: #666;
+}
+
+#footer{
+    position: relative;
+}
+
+.entry input{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+/*.footer {
     position: relative;
     background-color: #fff;
     width: 100%;
@@ -85,6 +110,8 @@
 .newsletter {
     margin-bottom: 2rem;
 }
+*/
+
 
 .copyright {
     display: flex;

@@ -1,8 +1,6 @@
 @use "./variables" as v;
 
 
-
-
 @mixin text-transition{
   background: linear-gradient(
     to bottom, 
@@ -50,7 +48,6 @@
    text-align: end;
    padding-right: 1rem;
 }
-
 
 
 @mixin check{

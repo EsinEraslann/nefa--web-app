@@ -1,9 +1,8 @@
 @use "../abstracts/mixins" as m;
 
 
-
-
 .credit-card{
+    position: relative;
     margin-top: 8rem;
     .credit-text{
     margin-top: 2rem;}
