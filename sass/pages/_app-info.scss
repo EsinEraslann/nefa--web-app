@@ -4,9 +4,9 @@
 
 .app {
     margin-top: 10rem;
-    object-fit: contain;
     background: url(/assets/background2.png);
-    @include m.meter(100%, 36rem);
+    padding: 5rem 0;
+    width: 100%;
     @include m.flex-center;
   
     .app-body{
@@ -30,5 +30,8 @@
         margin: 25rem 0;
       }
   
+      .lined{
+        display: none;
+      }
       
     }
