@@ -53,6 +53,10 @@
     padding-left: 4rem;
   }
 
+  .btn-download{
+    color: #2477f3;
+  }
+
   .more{
     text-decoration: none;
   }
@@ -83,3 +87,37 @@
     position: absolute;
     right: 15rem;
   }
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  .star .circle-purple .circle-orange .circle-blue  .heading-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .circle-blue{
+    display: none;
+  }
+  .pag{
+    display: none;
+  }
+
+  .all-header{
+    text-align: center;
+  }
+  .heading{
+    font-size: 50px;
+  }
+
+  .header button{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+}

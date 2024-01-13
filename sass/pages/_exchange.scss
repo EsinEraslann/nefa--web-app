@@ -3,12 +3,10 @@
 
 .buy-form {
   margin-top: 5rem;
-  position: relative;
 }
 
 .bank {
   width: 30rem;
-  position: absolute;
   right: 8rem;
 }
 
@@ -16,9 +14,12 @@
 .form-body input {
   @include m.btn-transition;
   @include m.input;
-
+  margin-right: 25px;
 }
 
+.buy-responsive p{
+  font-size: 20px;
+}
 
 /*
 #top-form {
@@ -41,3 +42,38 @@
 .btn-credit {
   @include m.btn-transition;
 }
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 600px) {
+    .bank{
+      right: auto;
+      width: 28rem;
+      margin-bottom: 2rem;
+    }
+
+    .buy-responsive{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .form-body input{
+      width: 15rem;
+      margin-right: 15px;
+    }
+
+    .buy-responsive h2{
+      font-size: 35px; 
+    }  
+
+    .buy-responsive p{
+      font-size: 16px;
+    }
+  }

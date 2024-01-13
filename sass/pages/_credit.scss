@@ -13,6 +13,11 @@
     width: 38rem;
 }
 
+.btn-credit{
+    width: 50%;
+}
+
+
 .nefa-title{
     @include m.text-transition;
 }
@@ -20,3 +25,20 @@
 .fa-check{
     @include m.check;
 }
+
+
+
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 600px) {
+    .credit-img{
+        width: 25rem;
+    }
+
+    .btn-credit{
+        width: 100%;
+    }
+
+  }

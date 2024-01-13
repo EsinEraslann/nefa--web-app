@@ -2,22 +2,19 @@
 
 
 .advanced {
-    position: relative;
-    height: 35rem;
     margin-top: 10rem;
     background: url(/assets/background2.png);
     width: 100%;
-    background-size: cover;
     background-position: center;
     border-radius: 40px;
     padding: 2rem;
 
     .advanced-pics {
-        width: 40%;
-        right: 4rem;
-        position: absolute;
+        width: 30rem;
+        right: 10rem;
     }
 }
+
 
 .learn {
     padding-left: 40px;
@@ -30,3 +27,27 @@
 .tools {
     @include m.text-transition;
 }
+
+
+
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 600px) {
+    .advanced-responsive{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .btn-get-started{
+        width: 100%;
+    }
+
+    div a{
+        display: flex;
+       /* margin-left: 7.5rem;*/
+        margin-top: 25px;
+    }
+    
+  }

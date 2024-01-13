@@ -3,7 +3,6 @@
 
 
 .app {
-    overflow: hidden;
     margin-top: 10rem;
     object-fit: contain;
     background: url(/assets/background2.png);
@@ -21,3 +20,15 @@
     color: #666;;
   }
  
+
+  @media screen and (max-width: 992px) {
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+      .app{
+        margin: 25rem 0;
+      }
+  
+      
+    }

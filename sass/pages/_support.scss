@@ -6,6 +6,9 @@
     left: 30rem;
 }
 
+.accordion{
+    background-color: transparent;
+}
 
 .accordion-body{
     line-height: 25px;
@@ -51,3 +54,16 @@
 .list{
     list-style: none;
 }
+
+
+
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 600px) {
+    .support-img{
+        width: 30rem;
+    }
+
+  }
