@@ -66,7 +66,6 @@
         justify-content: start;
         display: flex;
         text-align: start;
-        color: var(--FONT-SECONDARY, #666);
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -75,10 +74,11 @@
     }
 }
 
-#email {
+.entry #email{
     padding: 19px;
     width: 15rem;
-
+    border-radius: 20px;
+    color: #aeaeae ;
 }
 
 

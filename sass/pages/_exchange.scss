@@ -2,31 +2,43 @@
 @use "../abstracts/variables";
 
 .buy-form {
-    margin-top: 30rem;
-    background-color: #ffffff !important;
-  }
+  margin-top: 30rem;
+  background-color: #ffffff !important;
+}
 
-  .form-body{
-    display: flex;
-    justify-content: center;
-    column-gap: 0;
-  }
-  
-  .bank {
-    width: 30rem;
-    position:absolute;
-    top: 77rem;
-    right: 8rem;
-  }
-  
-  .page-input-two select {
-    @include m.center-input;
-  
-  }
-  .page-input-one input {
-    @include m.big-input;
-  }
+.bank {
+  width: 30rem;
+  position: absolute;
+  top: 77rem;
+  right: 8rem;
+}
 
-  .btn-credit{
-    @include m.btn-transition;
-  }
+
+
+.form-body input {
+  @include m.btn-transition;
+  @include m.input;
+
+}
+
+.form-body select {
+  @include m.btn-transition;
+  @include m.select;
+
+}
+
+#top-form {
+  background-image: url(/assets/Ellipse\ 13.png);
+  background-repeat: no-repeat;
+  background-position: 60px;
+}
+
+#bottom-form {
+  background-image: url(/assets/image\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 60px;
+}
+
+.btn-credit {
+  @include m.btn-transition;
+}

@@ -1,15 +1,7 @@
 @use "./variables" as v;
 
 
-@mixin btn-transition{
-  background: 
-    linear-gradient(#ffffff 0 0) padding-box, /*this is your grey background*/
-    linear-gradient(to bottom, #10cafd, #1babf8) border-box;
-  padding: 10px;
-  border: 2px solid transparent;
-  border-radius: 35px;
-  display: inline-block;
-}
+
 
 @mixin text-transition{
   background: linear-gradient(
@@ -32,50 +24,34 @@
   height: $height-size;
 }
 
+@mixin btn-transition{
+  background: 
+    linear-gradient(#ffffff 0 0) padding-box, 
+    linear-gradient(to bottom, #10cafd, #1babf8) border-box;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 35px;
+  display: inline-block;
+}
 
-@mixin center-input {
+
+@mixin input {
+   width: 20rem;
+   height: 5rem;
+   border-radius: 1rem;
+   text-align: start;
+   padding-left: 1rem;
+}
+
+@mixin select {
   width: 11rem;
-  height: 5rem;
-  border-radius: 1rem;
-  text-align: end;
-  border: solid var(--GRA-Blue2, #3984f4);
-  padding-right: 0.5rem;
-  color: #666;
+   height: 5rem;
+   border-radius: 1rem;
+   text-align: end;
+   padding-right: 1rem;
 }
 
-@mixin big-input {
-  width: 20rem;
-  height: 5rem;
-  border-radius: 1rem;
-  text-align: start;
-  border: solid var(--GRA-Blue2, #3984f4);
-  padding-left: 1rem;
-}
 
-@mixin title-first {
-  font-size: 50px;
-  font-weight: 600;
-  line-height: 40px;
-  letter-spacing: 0em;
-  text-align: left;
-  margin-top: 5rem;
-  margin-bottom: 2rem;
-}
-
-@mixin title-second {
-  font-size: 25px;
-  font-weight: 600;
-  line-height: 52px;
-}
-
-@mixin title-third {
-  font-size: 15px;
-}
-
-@mixin title-fourth {
-  font-size: 15px;
-  color: rgb(98, 98, 98);
-}
 
 @mixin check{
     background-color: #2f7cf0 ;

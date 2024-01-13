@@ -13,19 +13,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-  
-h1 {
-    @include m.title-first;
-}
-h2 {
-    @include m.title-second;
-}
-h3 {
-    @include m.title-third;
-}
-h4 {
-    @include m.title-fourth;
-}
+
   
 .app-text h3 {
     object-fit: contain;
