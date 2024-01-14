@@ -32,8 +32,9 @@
 
   .btn-download{
     @include m.btn-transition;
-    white-space: nowrap;
-    width: max-content !important;
+    height: 3.8rem;
+    /*white-space: nowrap;
+    width: max-content !important;*/
   }
 
  

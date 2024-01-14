@@ -26,12 +26,13 @@
   }
   
   @media screen and (max-width: 600px) {
-      .app{
-        margin: 25rem 0;
-      }
-  
       .lined{
         display: none;
       }
-      
+
+
+      .other-img{
+        display: flex;
+        margin-left: 4rem;
+      }
     }

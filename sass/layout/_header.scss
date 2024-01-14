@@ -95,9 +95,6 @@
 
 
 @media screen and (max-width: 992px) {
-  .star .circle-purple .circle-orange .circle-blue  .heading-img {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -120,9 +117,7 @@
     width: 100%;
   }
 
-
-
   .btn-download{
-    width: 5rem !important;
+    width: 100%!important;
   }
 }

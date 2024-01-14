@@ -115,11 +115,6 @@ ul {
   right: 15rem;
 }
 
-@media screen and (max-width: 992px) {
-  .star .circle-purple .circle-orange .circle-blue .heading-img {
-    display: none;
-  }
-}
 @media screen and (max-width: 600px) {
   .circle-blue {
     display: none;
@@ -138,7 +133,7 @@ ul {
     width: 100%;
   }
   .btn-download {
-    width: 5rem !important;
+    width: 100% !important;
   }
 }
 .list a {
@@ -157,6 +152,7 @@ ul {
 }
 
 .copyright {
+  margin-top: 30px;
   display: flex;
   justify-content: center;
 }
@@ -203,9 +199,9 @@ ul {
   border: 2px solid transparent;
   border-radius: 35px;
   display: inline-block;
-  white-space: nowrap;
-  width: -moz-max-content !important;
-  width: max-content !important;
+  height: 3.8rem;
+  /*white-space: nowrap;
+  width: max-content !important;*/
 }
 
 .header .btn-clear {
@@ -422,6 +418,16 @@ ul {
     font-size: 16px;
   }
 }
+@media screen and (max-width: 600px) {
+  .buy-btn {
+    width: 100% !important;
+    margin-top: 20px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .partners {
   display: flex;
   flex-direction: column;
@@ -481,10 +487,17 @@ ul {
   }
   .btn-get-started {
     width: 100%;
-  }
-  div a {
     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .learn {
+    display: flex;
+    padding-left: 10rem;
     margin-top: 25px;
+  }
+  .advanced-pics {
+    padding-right: 3rem;
   }
 }
 .security {
@@ -504,6 +517,12 @@ ul {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 600px) {
+  .security-img {
+    display: flex;
+    margin-left: 2rem;
+  }
+}
 .app {
   margin-top: 10rem;
   background: url(/assets/background2.png);
@@ -523,11 +542,12 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-  .app {
-    margin: 25rem 0;
-  }
   .lined {
     display: none;
+  }
+  .other-img {
+    display: flex;
+    margin-left: 4rem;
   }
 }
 .support-text {
@@ -562,6 +582,10 @@ p {
 @media screen and (max-width: 600px) {
   .support-img {
     width: 30rem;
+    margin-top: 5rem;
+  }
+  .support-text {
+    margin-top: 4rem;
   }
 }
 .credit-card {
