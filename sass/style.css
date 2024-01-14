@@ -212,10 +212,6 @@ ul {
   width: 10rem;
 }
 
-/*.btn-header {
-    display: flex;
-    gap: 10px;
-}*/
 .btn {
   width: 125px;
   height: 60px;
@@ -378,12 +374,6 @@ ul {
   font-size: 20px;
 }
 
-/*
-#top-form {
-  background-image: url(/assets/Ellipse\ 13.png);
-  background-repeat: no-repeat;
-  background-position: 60px;
-}*/
 .form-body select {
   background: linear-gradient(#ffffff 0 0) padding-box, linear-gradient(to bottom, #10cafd, #1babf8) border-box;
   padding: 10px;
@@ -494,7 +484,6 @@ ul {
   }
   div a {
     display: flex;
-    /* margin-left: 7.5rem;*/
     margin-top: 25px;
   }
 }

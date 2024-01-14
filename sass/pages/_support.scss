@@ -1,3 +1,5 @@
+@use "../abstracts/variables" as v;
+
 .support-text{
     margin-top: 10rem;
 }
@@ -8,7 +10,7 @@
 
 .accordion-body{
     line-height: 25px;
-    color: #666;
+    color: v.$color-grey;
 }
 
 .support-text {

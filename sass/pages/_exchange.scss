@@ -21,13 +21,6 @@
   font-size: 20px;
 }
 
-/*
-#top-form {
-  background-image: url(/assets/Ellipse\ 13.png);
-  background-repeat: no-repeat;
-  background-position: 60px;
-}*/
-
 .form-body select {
   @include m.btn-transition;
   @include m.select;
