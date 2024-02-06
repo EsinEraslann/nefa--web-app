@@ -70,7 +70,6 @@ ul {
 .heading-img {
   position: absolute;
   width: 43rem;
-  left: 40rem;
   right: 2rem;
 }
 
@@ -127,6 +126,9 @@ ul {
   }
   .heading {
     font-size: 50px;
+  }
+  .heading-img {
+    display: none;
   }
   .header button {
     margin-top: 20px;

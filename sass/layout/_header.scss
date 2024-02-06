@@ -44,7 +44,6 @@
     .heading-img {
       position: absolute;
       width: 43rem;
-      left: 40rem;
       right: 2rem;
   }
 
@@ -110,6 +109,10 @@
   }
   .heading{
     font-size: 50px;
+  }
+
+  .heading-img {
+    display: none;
   }
 
   .header button{
